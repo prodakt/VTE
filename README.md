@@ -1,4 +1,8 @@
 # VTE
+
+![GitHub](https://img.shields.io/github/license/prodakt/VTE)
+![GitHub top language](https://img.shields.io/github/languages/top/prodakt/VTE)
+
 This repository contains the scripts for the "venous thromboembolism and transcriptomic analysis of deep vein thrombosis in the femoral veins" project ([ENA: PRJEB43020](https://www.ebi.ac.uk/ena/browser/view/PRJEB43020)).
 
 <img align="middle" src="img/abs.jpg" alt="graphical abstract" wigth="300px" />
