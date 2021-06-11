@@ -9,7 +9,7 @@ Venous thromboembolism (VTE), including deep vein thrombosis (DVT) and pulmonary
 
 ---------------------------------------------------------------
 
-## Script
+## R Scripts
 
 The script consist of a set of files, where the main file is named DVT.R (Deep Vein Thrombosis). This file contains:
 ### reading the data
@@ -64,10 +64,10 @@ res_sig_DESeq_FC1 <- subset(res_sig_DESeq, abs(res_sig_DESeq$log2FoldChange) > 1
  * correlation
 
 ### other files
-* libs.R - used external libraries
-* funs.R - used own functions
-* fig2.R - preparing figure 2
-* fig3.R - preparing figure 3
-* fig4.R - preparing figure 4
-* fig5.R - preparing figure 5
+* `<libs.R>` - used external libraries
+* `<funs.R>` - used own functions
+* `<fig2.R>` - preparing figure 2
+* `<fig3.R>` - preparing figure 3
+* `<fig4.R>` - preparing figure 4
+* `<fig5.R>` - preparing figure 5
 
