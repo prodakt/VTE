@@ -13,4 +13,3 @@ cordist <- function(dat) {
   dist_matrix <- 1 - (dist_matrix / max(dist_matrix))
   sign(cor_matrix) * ((abs(cor_matrix) + dist_matrix)/ 2)
 }
-

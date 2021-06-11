@@ -3,8 +3,6 @@ source("funs.R")
 source("libs.R")
 
 
-
-
 ensemblSs = useMart(host="ensembl.org", biomart="ENSEMBL_MART_ENSEMBL", dataset="sscrofa_gene_ensembl") 
 
 allgenes.Ensembl = getBM(attributes=c("ensembl_gene_id", "external_gene_name", "gene_biotype", "entrezgene_id", "description", "entrezgene_accession"),mart=ensemblSs)

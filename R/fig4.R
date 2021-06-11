@@ -1,4 +1,3 @@
-
 ##########  Figure 4a -----------
 
 GO_results <- read.csv2("gProfiler_sscrofa_A_vs_C_2metods.txt", sep = '\t')

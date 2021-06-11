@@ -31,7 +31,6 @@ res[(rownames(res) %in% do_venn_AvC) & res$log2FoldChange <= -0.5,]$color <- "gr
 table(res$color)
 
 
-
 ##### Figure 2d ----------
 
 tiff("Volcano.tiff", width = 140, height = 140, units = 'mm', res = 500, compression = "lzw")

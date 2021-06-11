@@ -12,7 +12,6 @@ rownames(FPKM_sig_DEGs_null) <- seq(1:nrow(FPKM_sig_DEGs_null))
 head(FPKM_sig_DEGs_null)
 colnames(FPKM_sig_DEGs_null) <- NULL
 
-
 DE_all_FPKM <- FPKM_sig_DEGs_null
 DE_all_FPKM <- as.matrix(DE_all_FPKM)
 head(DE_all_FPKM)
