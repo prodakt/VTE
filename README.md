@@ -62,6 +62,15 @@ res <- results(dds)
 res_sig_DESeq <- subset(res, padj < 0.05)
 res_sig_DESeq <- as.data.frame(res_sig_DESeq)
 res_sig_DESeq_FC1 <- subset(res_sig_DESeq, abs(res_sig_DESeq$log2FoldChange) > 1)
+
+head(res_sig_DESeq_FC1)
+           baseMean log2FoldChange     lfcSE      stat       pvalue         padj
+MSTRG.2   361.28993       5.306522 1.0348122  5.128005 2.928287e-07 2.025003e-06
+MSTRG.1   519.89674      -2.740284 0.8263041 -3.316314 9.121323e-04 3.058673e-03
+MSTRG.10  249.54373       4.045792 0.6246534  6.476860 9.365119e-11 1.132943e-09
+MSTRG.11   18.23389       7.439229 1.5026587  4.950711 7.394271e-07 4.784858e-06
+MSTRG.20 1519.30550       2.184322 0.3843611  5.682994 1.323569e-08 1.144702e-07
+MSTRG.21  997.08148       2.782726 0.3859036  7.210936 5.556864e-13 9.335660e-12
 ```
  ### other analyses
  * validation
